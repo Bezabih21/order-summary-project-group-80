@@ -1,0 +1,125 @@
+
+
+
+body {
+    background: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+    font-family: 'san serif'
+}
+
+main {
+    display: grid;
+    padding: 48px;
+}
+
+.order-card {
+    margin: auto;
+    display: grid;
+    background: white;
+    box-shadow: 0 25px 25px #372AE030;
+    border-radius: 10px;
+}
+
+img {
+    margin: auto;
+    width: 404px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.order-body {
+    margin: auto;
+    display: grid;
+}
+
+.order-summary {
+    width: 315px;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Montserrat-Medium'; 
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.price {
+    background: #fff;
+    margin: auto;
+    width: 332px;
+    height: 96px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.music-icon {
+    width: 55px;
+    height: 45px;
+    margin: 16px;
+}
+
+.price-plan {
+    width: 100px;
+}
+
+.change {
+    margin-left: 80px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+}
+
+.change a:hover {
+    text-decoration: none;
+    color: #675fda;
+}
+
+button {
+    background: none;
+    font-family: 'Montserrat-Regular';
+    font-weight: 500;
+    font-size: 13px;
+    color:hsl(224, 23%, 55%);
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    width: 332px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button1 {
+    background: #372AE0;
+    box-shadow: 0 20px 16px #372AE035;
+    color: #fff;
+}
+
+
+.button1:hover {
+    background: #675fda;
+}
+.button2 {
+    background: black;  
+}
+
+
+.button2:hover {
+    color: #fff;
+}
+
+.challenge {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
